@@ -6,7 +6,6 @@ Created on Wed Apr  2 11:49:47 2025
 @author: aw2a7c1l
 """
 
-
 from os import chdir, environ, path, makedirs, sep
 import matplotlib.pyplot as plt
 from matplotlib.path import Path
@@ -14,7 +13,6 @@ import pandas as pd
 import math
 import queue
 import matplotlib.cm as cm
-#from matplotlib import colormaps
 import matplotlib.colors as colors
 from data_manip.extraction.telemac_file import TelemacFile
 from data_manip.formats.regular_grid import interpolate_on_grid
