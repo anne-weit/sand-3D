@@ -19,7 +19,6 @@ from data_manip.formats.regular_grid import interpolate_on_grid
 from data_manip.formats.regular_grid import field_diff_on_grid
 from postel.plot1d import plot1d
 from postel.plot2d import *
-import difflib
 from pathlib import Path
 from matplotlib.colors import LogNorm
 
