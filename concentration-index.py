@@ -25,6 +25,7 @@ import difflib
 from pathlib import Path
 from matplotlib.colors import LogNorm
 
+print("Launch Sand-3D analysis")
 path_folder = '/home/aw2a7c1l/Documents/Romanche3D/exploitation2/'
 path_result = f'{path_folder}{sep}figures'
 
