@@ -26,7 +26,7 @@ from pathlib import Path
 from matplotlib.colors import LogNorm
 
 path_folder = '/home/aw2a7c1l/Documents/Romanche3D/exploitation2/'
-path_result = '/home/aw2a7c1l/Documents/Romanche3D/exploitation2/figures'
+path_result = f'{path_folder}{sep}figures'
 
 # Create results folder
 if not path.exists(path_result):
